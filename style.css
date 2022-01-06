@@ -147,3 +147,52 @@ section{
     width: 30%;
     border-radius: 30px;
 }
+.services_heading{
+    text-align: center;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+.services_heading h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: coral;
+}
+.my_services{
+    display: flex;
+}
+.my_services_child{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow:  10px 10px 20px gray;
+    border-radius: 30px;
+}
+.my_services_child img{
+    width: 90%;
+   
+
+}
+.exceptinal_child{
+    margin: 0;
+}
+.my_services_child h1{
+    text-align: center;
+    font-weight: 700;
+}
+.my_services_child p{
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+    line-height: 25px;
+}
+.last_div{
+    width: 1349px;
+    height: 170px;
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    padding-top: 20px;
+}
+.last_div small{
+    color: white;
+}
