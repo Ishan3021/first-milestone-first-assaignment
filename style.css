@@ -1,0 +1,100 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding-left: 50px;
+}
+.special_heading{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 25px;
+   
+
+}
+
+.first_section{
+    background-color: rgba(255, 192, 192, 0.035);
+
+}
+.first_parent{
+    display: flex;
+}
+.left_child{
+    width: 50%;
+    margin-top: 100px;
+}
+.special_border{
+    border-left: 5px solid tomato;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 10px;
+
+}
+
+.orange_color{
+    color:orange;
+}
+.tomato_color{
+    color: tomato;
+}
+.first_btn{
+    background-color: tomato;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.right_child{
+    width: 50%;
+    
+}
+.right_child img{
+    width: 60%;
+}
+.mission_heading{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+.mission_parent{
+    display: flex;
+   
+}
+.mission_child{
+    width: 30%;
+    margin-left: 2%px;
+    margin-right: 2%;
+    box-shadow: gray 0px 19px 38px, gray 0px 15px 12px;
+    border-radius: 30px;
+    padding: 0 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.mission_child img{ 
+    width: 50%;
+    
+}
+.mission_child p{ 
+   text-align: justify;
+   font-weight: 400;
+   
+
+}
+.first_child{
+    
+    background-color: #FFEBCC;
+}
+.second_child{
+    background-color: #FFD39A;
+}
+.third_child{
+    background-color: #AEFEFF;
+    padding: 0 15px;
+}
