@@ -5,6 +5,7 @@ body{
 }
 section{
     padding-left: 50px;
+    margin-bottom: 100px;
 }
 .special_heading{
     font-size: 50px;
@@ -41,7 +42,7 @@ section{
 }
 .first_btn{
     background-color: tomato;
-    padding: 10px 15px;
+    padding: 15px 15px;
     border: none;
     border-radius: 5px;
     color: white;
@@ -72,10 +73,7 @@ section{
     box-shadow: gray 0px 19px 38px, gray 0px 15px 12px;
     border-radius: 30px;
     padding: 0 15px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+   
 }
 .mission_child img{ 
     width: 50%;
@@ -97,4 +95,28 @@ section{
 .third_child{
     background-color: #AEFEFF;
     padding: 0 15px;
+}
+.developer_parent{
+    display: flex;
+}
+#developer_left_child{
+    width: 30%;
+    border-radius: 30px;
+}
+
+.developer_right_child{
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.developer_heading{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.developer_right_child{
+    line-height: 25px;
+    text-align: justify;
 }
