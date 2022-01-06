@@ -54,6 +54,7 @@ font-weight: 600;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .right_child{
     width: 50%;
