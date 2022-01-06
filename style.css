@@ -27,6 +27,10 @@ section{
     width: 50%;
     margin-top: 100px;
 }
+.left_child p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 .special_border{
     border-left: 5px solid tomato;
     border-radius: 5px 5px 0px 0px;
@@ -83,6 +87,7 @@ section{
    text-align: justify;
    font-weight: 400;
    
+   
 
 }
 .first_child{
@@ -116,7 +121,29 @@ section{
     font-weight: 600;
     line-height: 20px;
 }
-.developer_right_child{
-    line-height: 25px;
+.developer_right_child p{
+    line-height: 30px;
     text-align: justify;
+    margin-bottom: 30px;
+}
+.community_parent{
+    display: flex;
+}
+.community_left_child{
+    width: 50%;
+    padding-right: 5%;
+    margin-top: 5%;
+}
+.community_left_child p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.community_heading{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+}
+#community_right_child{
+    width: 30%;
+    border-radius: 30px;
 }
