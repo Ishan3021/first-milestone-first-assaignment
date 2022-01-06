@@ -16,10 +16,6 @@ section{
 
 }
 
-.first_section{
-    background-color: rgba(255, 192, 192, 0.035);
-
-}
 .first_parent{
     display: flex;
 }
@@ -34,7 +30,7 @@ font-weight: 600;
 }
 .special_border{
     border-left: 5px solid tomato;
-    border-radius: 5px 5px 0px 0px;
+    border-radius:5px 5px 5px 5px;
     padding-left: 10px;
 
 }
